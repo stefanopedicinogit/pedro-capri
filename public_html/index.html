@@ -6,12 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Pedro Capri Cocktail Pub Bar Risto Landing Page">
     <meta name="author" content="Stefano Pedicino Pedro Capri">
+    <link rel="icon" type="image/x-icon" href="assets/img/pedro_logo.png">
     <title>Pedro | Capri</title>
 
     <!-- font icons -->
     <link rel="stylesheet" href="assets/vendors/themify-icons/css/themify-icons.css">
-
     <link rel="stylesheet" href="assets/vendors/animate/animate.css">
+
+    <!-- Libraries Stylesheet -->
+    <link href="assets/lib/owlcarousel/owl.carousel.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/external.css" rel="stylesheet" type="text/css">
 
     <!-- Bootstrap + FoodHut main styles -->
     <link rel="stylesheet" href="assets/css/foodhut.css">
@@ -39,11 +43,12 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#gallary">Gallery</a>
                 </li>
-                
+
             </ul>
             <a class="navbar-brand m-auto" href="#">
                 <img src="assets/img/pedro_logo.png" class="brand-img" alt="Pedro Capri Cocktail Pub Bar Risto Logo">
-                <img src="assets/img/pedro_logo.png" class="brand-txt" alt="Pedro Capri Cocktail Pub Bar Risto Logo" height="80vh">
+                <img src="assets/img/pedro_logo.png" class="brand-txt" alt="Pedro Capri Cocktail Pub Bar Risto Logo"
+                    height="80vh">
             </a>
             <ul class="navbar-nav">
                 <li class="nav-item">
@@ -53,12 +58,41 @@
                     <a class="nav-link" href="#contact">Contact Us</a>
                 </li>
                 <li class="nav-item">
-                    <a href="components.html" class="pedro-color btn ml-xl-4"><i
-                        class="fab fa-whatsapp mr-2"></i>Talk with Us</a>
+                    <a href="https://wa.me/+393773045038?text=I%27m%20interested" class="pedro-color btn ml-xl-4"><i
+                            class="fab fa-whatsapp mr-2"></i>Talk
+                        with Us</a>
                 </li>
             </ul>
         </div>
     </nav>
+    <!-- end Navbar -->
+
+    <!-- Navbar Mobile -->
+    <!-- <nav class="mobile-navbar">
+         Checkbox for toggling menu 
+        <input type="checkbox" id="check">
+         Menu icon -->
+    <!--  <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label> -->
+    <!-- Site logo 
+        <img class="logo" src="assets/img/pedro_logo.png" alt="Pedro Capri Cocktail Pub Bar Risto Logo"> 
+         Navigation links -->
+    <!-- <ul>
+          <li><a class="active" href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#gallary">Gallery</a></li>
+          <li><a href=#book-table>Book-Table</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+          <li class="nav-item">
+            <a href="https://wa.me/+393773045038?text=I%27m%20interested" class="pedro-color btn ml-xl-4"><i class="fab fa-whatsapp mr-2"></i>Talk
+                with Us</a>
+        </li>
+        </ul> -->
+    <!--</nav> -->
+    <!-- end Navbar Mobile -->
+
+
     <!-- header -->
     <header id="home" class="header">
         <div class="overlay text-white text-center">
@@ -66,33 +100,38 @@
                 class="display-2 font-weight-bold my-3" height="250vh"></img>
             <h2 class="display-4 mb-5">Always fresh &amp; Delightful</h2>
             <a class="btn btn-lg pedro-color" href="#gallary">View Our gallery</a>
-<!--        <a class="btn btn-lg btn-outline-light" href="#gallary">View Our gallery</a>-->        
+            <!--        <a class="btn btn-lg btn-outline-light" href="#gallary">View Our gallery</a>-->
         </div>
     </header>
 
     <!--  About Section  -->
     <div class="element">
         <div id="about" class="wow fadeIn" id="about" data-wow-duration="1.5s">
-            <div class="row">
-                <div class="col-lg-6 has-img-bg"></div>
-                <div class="col-lg-6">
-                    <div class="row justify-content-center">
-                        <div class="col-sm-8 py-5 my-5">
-                            <h2 class="mb-4">About Us</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam
-                                accusantium nostrum modi, nemo, officia veritatis ipsum facere maxime assumenda
-                                voluptatum enim! Labore maiores placeat impedit, vero sed est voluptas!Lorem ipsum dolor
-                                sit amet, consectetur adipisicing elit. Expedita alias dicta autem, maiores doloremque
-                                quo perferendis, ut obcaecati harum, <br><br>Lorem ipsum dolor sit amet, consectetur
-                                adipisicing elit. Eum necessitatibus iste,
-                                nulla recusandae porro minus nemo eaque cum repudiandae quidem voluptate magnam
-                                voluptatum? <br>Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas.
-                                Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.</p>
-                            <p><b>Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero asperiores
-                                    explicabo.</b></p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi,
-                                reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo
-                                magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+            <div class="mobile-text-about">
+                <div class="row">
+                    <div class="col-lg-6 has-img-bg"></div>
+                    <div class="col-lg-6">
+                        <div class="row justify-content-center">
+                            <div class="col-sm-8 py-5 my-5">
+                                <h2 class="mb-4">About Us</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur, quisquam
+                                    accusantium nostrum modi, nemo, officia veritatis ipsum facere maxime assumenda
+                                    voluptatum enim! Labore maiores placeat impedit, vero sed est voluptas!Lorem ipsum
+                                    dolor
+                                    sit amet, consectetur adipisicing elit. Expedita alias dicta autem, maiores
+                                    doloremque
+                                    quo perferendis, ut obcaecati harum, <br><br>Lorem ipsum dolor sit amet, consectetur
+                                    adipisicing elit. Eum necessitatibus iste,
+                                    nulla recusandae porro minus nemo eaque cum repudiandae quidem voluptate magnam
+                                    voluptatum? <br>Nobis, saepe sapiente omnis qui eligendi pariatur. quis voluptas.
+                                    Assumenda facere adipisci quaerat. Illum doloremque quae omnis vitae.</p>
+                                <p><b>Lonsectetur adipisicing elit. Blanditiis aspernatur, ratione dolore vero
+                                        asperiores
+                                        explicabo.</b></p>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos ab itaque modi,
+                                    reprehenderit fugit soluta, molestias optio repellat incidunt iure sed deserunt nemo
+                                    magnam rem explicabo vitae. Cum, nostrum, quidem.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -107,78 +146,121 @@
 
     <div class="gallary row">
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-1.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_041.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_041.jpg"
+                class="gallary-overlay img-gallery-item">
+                <i class="gallary-icon ti-plus portfolio--action"></i>
+            </a>
+        </div>
+        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
+            <img src="assets/img/IMG_20250304_173836_200.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_200.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-2.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_352.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_352.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-3.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_369.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_369.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-4.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_468.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_468.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-5.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_514.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_514.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-6.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_568.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_568.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-7.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_637.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_637.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-8.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_668.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_668.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-9.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173836_672.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173836_672.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-10.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173909_112.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173909_112.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
         <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-11.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
-                <i class="gallary-icon ti-plus"></i>
-            </a>
-        </div>
-        <div class="col-sm-6 col-lg-3 gallary-item wow fadeIn">
-            <img src="assets/imgs/gallary-12.jpg" alt="template by DevCRID http://www.devcrud.com/" class="gallary-img">
-            <a href="#" class="gallary-overlay">
+            <img src="assets/img/IMG_20250304_173909_170.jpg" alt="Pedro Capri Cocktail Pub Bar Risto"
+                class="gallary-img">
+            <a title="Pedro Capri" href="assets/img/IMG_20250304_173909_170.jpg"
+                class="gallary-overlay img-gallery-item">
                 <i class="gallary-icon ti-plus"></i>
             </a>
         </div>
     </div>
+
+    <!-- Slider Photo -->
+    <section class="element slider-container" style="min-width: 90%; height: auto;">
+        <div id="gallary" class="text-center text-light has-height-md middle-items wow fadeIn">
+            <h2 class=" section-title">GALLERY</h2>
+        </div>
+        <div class="slider-wrapper">
+            <div class="slider">
+                <!-- images will be generated here -->
+            </div>
+            <div class="slider-nav">
+                <!-- navigation links will be generated here -->
+            </div>
+        </div>
+    </section>
+    <!-- End Slider Photo -->
+
+
+
 
     <!-- book a table Section 1 -->
     <div class="container-fluid has-bg-overlay text-center text-light has-height-lg middle-items" id="book-table">
@@ -200,10 +282,18 @@
                 <div class="py-5">
                     <h2 class="section-title mb-5">BOOK A TABLE</h2>
                     <iframe id="iframe-booktable-container" src="https://pedrocapri.superbexperience.com/"
-                        height="600vh"></iframe>
+                        height="600vh">
+                    </iframe>
                 </div>
             </div>
-
+            <div class="container-fluid text-center text-light has-height-lg middle-items" id="book-table">
+                <div class="py-5">
+                    <h2 class="section-title mb-5">MENU</h2>
+                    <iframe id="iframe-booktable-container" src="https://qrfy.io/api/storage/gcs/pdf/qrfyprod/9455a60f-e7f7-4a1d-ad16-e1c91551f82b.pdf"
+                        height="600vh">
+                    </iframe>
+                </div>
+            </div>
             <!-- BLOG Section  -->
             <!--<div id="blog" class="container-fluid bg-dark text-light py-5 text-center wow fadeIn">
             <h2 class="section-title py-5">EVENTS AT THE FOOD HUT</h2>
@@ -367,8 +457,10 @@
                                     <div class="form-container">
                                         <div class="row">
                                             <div class="contact--desc">
-                                                <p>Pedro Capri is Lorem ipsum, dolor sit amet consectetur adipisicing
-                                                    elit. A iste delectus doloremque numquam eaque, molestiae dolores
+                                                <p>Pedro Capri is Lorem ipsum, dolor sit amet consectetur
+                                                    adipisicing
+                                                    elit. A iste delectus doloremque numquam eaque, molestiae
+                                                    dolores
                                                     facilis. Soluta recusandae dolorem, necessitatibus cumque nihil
                                                     vero, neque in consequuntur dolore debitis aspernatur.
                                                 </p>
@@ -376,16 +468,20 @@
                                         </div>
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 mb-5">
-                                                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Contattaci
+                                                <h5 class="mb-4 text-white text-uppercase font-weight-bold">
+                                                    Contattaci
                                                 </h5>
                                                 <p class="font-weight-medium"><i
-                                                        class="fa fa-map-marker-alt mr-2"></i>Via Ignazio Cerio, 11<br>
+                                                        class="fa fa-map-marker-alt mr-2"></i>Via Ignazio Cerio,
+                                                    11<br>
                                                     Capri, IT</p>
                                                 <p class="font-weight-medium"><i class="fa fa-phone-alt mr-2"></i>+39
                                                     377 304 5038</p>
                                                 <p class="font-weight-medium"><i
-                                                        class="fa fa-envelope mr-2"></i>Pedrocaprirestaurant@gmail.com</p>
-                                                <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">Seguici
+                                                        class="fa fa-envelope mr-2"></i>Pedrocaprirestaurant@gmail.com
+                                                </p>
+                                                <h6 class="mt-4 mb-3 text-white text-uppercase font-weight-bold">
+                                                    Seguici
                                                 </h6>
                                                 <div class="d-flex justify-content-start">
                                                     <a class="btn btn-lg pedro-color btn-lg-square mr-2" href="#"><i
@@ -398,20 +494,21 @@
                                                 </div>
                                             </div>
                                             <div class="col-lg-3 col-md-6">
-                                                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Quick Links
+                                                <h5 class="mb-4 text-white text-uppercase font-weight-bold">Quick
+                                                    Links
                                                 </h5>
                                                 <ul class="m-0 ml-4">
                                                     <li class="mb-1">
                                                         <a class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe "
-                                                            href="about.html">About Us</a>
+                                                            href="#about">About Us</a>
                                                     </li>
                                                     <li class="mb-1">
                                                         <a class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe "
-                                                            href="gallery.html">Gallery</a>
+                                                            href="#gallary">Gallery</a>
                                                     </li>
                                                     <li class="mb-1">
                                                         <a class="iubenda-black iubenda-noiframe iubenda-embed iubenda-noiframe "
-                                                            href="contact.html">Contact</a>
+                                                            href="#contact">Contact</a>
                                                     </li>
                                                     <li class="mb-1">
                                                         <a href="https://www.iubenda.com/privacy-policy/56558257"
@@ -442,12 +539,27 @@
                 </p>
             </div>
             <!-- Footer End -->
+            <!-- Back to Top -->
+            <a href="#" class="btn pedro-color btn-square back-to-top"><i class="fa fa-arrow-up"></i></a>
         </div>
 
 
         <!-- core  -->
         <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
         <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
+
+        <!-- Gallery Scripts
+    ============================================= -->
+        <script src="assets/js/jquery-2.2.4.min.js"></script>
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/functions.js"></script>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/lib/easing/easing.min.js"></script>
+        <script src="assets/lib/owlcarousel/owl.carousel.min.js"></script>
+
 
         <!-- bootstrap affix -->
         <script src="assets/vendors/bootstrap/bootstrap.affix.js"></script>
