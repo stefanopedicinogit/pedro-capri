@@ -11277,7 +11277,7 @@ pre {
 .header {
   height: 70vh;
   max-height: 70vh;
-  background: url("../img/backgroundPedro.jpeg") no-repeat center center fixed !important;
+  background: url("../img/IMG_20250304_173836_369.jpeg");
   background-size: cover;
   min-height: 70vh;
 }
@@ -11285,6 +11285,7 @@ pre {
 @media (max-width: 1200px) {
   .header .overlay {
     height: 100%;
+    background: rgba(33, 37, 41, 0.55) !important;
     display: -webkit-flex;
     display: -ms-flex;
     display: -webkit-box;
