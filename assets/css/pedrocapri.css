@@ -71,8 +71,8 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 .buttons-mobile{
-  min-width: 50vw !important;
-  max-width: 50vw !important;
+  min-width: 55vw !important;
+  max-width: 55vw !important;
   background-color: rgba(0, 82, 126, 0.85) !important;
 }
   
