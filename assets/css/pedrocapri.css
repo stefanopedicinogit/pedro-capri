@@ -70,6 +70,12 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   background-image: linear-gradient(rgba(33, 37, 41, 0.65), rgba(33, 37, 41, 0.35)), url("../img/backgroundPedro.jpeg") !important;
 }
 
+.header-mobile{
+  min-height: 100vh !important;
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
+
 .buttons-mobile{
   min-width: 55vw !important;
   max-width: 55vw !important;
